@@ -1,0 +1,7 @@
+.bottom{
+	height: 400px;
+	width: fill;
+	vertical-align: bottom;
+	background-color: black;
+	position: bottom;
+}

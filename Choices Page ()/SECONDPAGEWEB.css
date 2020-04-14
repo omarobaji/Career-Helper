@@ -1,0 +1,82 @@
+body{
+		font-family: Helvetica;
+		background-color: #7F171F;
+
+	}
+	.navbar{
+		overflow:hidden;
+		background-color: #481470;
+		text-align: center;
+		width: 100%;
+		height: 38px;
+	}
+.navbar a{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 50px;
+	text-decoration: none;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+	.bg-right{
+		background-color: #7F171F;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 50%;
+		right: 50%	}
+	.flip-box{
+          background-color: transparent;
+          height: 550px;
+          width: 400px;
+          border:2px solid black;
+          perspective: 2000px;
+          margin-left:175px;
+          margin-top: 35px;
+          box-shadow: 0 0 20px gray;
+
+	}
+	.flipbox{
+          background-color: transparent;
+          height: 550px;
+          width: 400px;
+          border:2px solid black;
+          perspective: 2000px;
+          margin-left:400px;
+          margin-top: 100px;
+
+	}
+	.flip-box-inner{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		transition: transform 1s;
+		transform-style: preserve-3d;
+	}
+	.flip-box:hover .flip-box-inner{
+		transform: rotateY(180deg);
+	}
+	.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color:#35394a;
+  color: white;
+}
+
+.flip-box-back {
+  background-color: #35394a;
+  color: white;
+  transform: rotateY(180deg);
+}
