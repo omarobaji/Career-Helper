@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Career Helper</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="FrontPageWeb.css">
+	
+	<script type="text/javascript" src="FrontPageWeb.js"></script>
+</head>
+<body class="grad">
+	<div class="auth-container">
+		<div class="box box__login">
+			<h1>Log in </h1>
+
+
+			<input type="text" placeholder="Username">
+			<input type="Password" placeholder="Password">
+			<input type="Submit" value="LOG IN">
+
+
+			<div class="bottom-text" style="text-align:left;">
+				
+
+
+			</div>
+		</div>
+
+		<div class="box box__signup">
+			<h1>Dont have an account?</h1>
+
+			<input type="text" placeholder="First Name">
+			<input type="text" placeholder="Last Name">
+			<input type="text" placeholder="Username">
+			<input type="Email" placeholder="Email">
+			
+			<input type="Password" placeholder="Password" id="initial">
+			<input type="Password" placeholder="Confirm Password" id="second">
+<input value="CONFIRM" type="submit">
+
+<script type="text/javascript">
+	 document.getElementById("second").onblur = chkPasswords; 
+     
+</script>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
