@@ -1,0 +1,119 @@
+ body{
+            margin:0;
+            padding:0; 
+            font-family: 'Montserrat';
+            background-color: #dcdcdc;
+            }
+            .center{
+             text-align: center;
+             padding-top: 10px;
+            }
+            .pagename{
+            display: inline-block;
+            text-align: center;
+            border: 2px solid black;
+            background-color: #111E6C;
+            color: white;
+            width: 250px;
+            border-radius: 4px;
+        }
+     .profile{
+         width: 2in;
+         height:2in;
+     }
+    .relative{
+        position: relative;
+        padding: 10px;
+    }
+     .absolute1{
+         position: absolute;
+         color: white;
+         border-radius: 7px;
+         width: 2in;
+        left:130px;
+         padding:10px;
+         height:60px;
+         font-size: 1.7rem;
+         top: 100px;
+     }
+     .absolute2{
+         position: absolute;
+         background-color: transparent;
+          color: #007bff;
+          border-radius: 7px;
+          width: 250px;
+          left:400;
+          padding:10px;
+          height:60px;
+          font-size: 1.7rem;
+          top: 100px;
+     }
+     .absolute3{
+      font-size: 1.7rem;
+        position: absolute;
+         color: white;
+         border-radius: 7px;
+         width:230px;
+        left:130px;
+         padding:10px;
+         top:150px;
+         height:60px;
+     }
+     .absolute4{
+        position: absolute;         
+         color: #007bff;
+          font-size: 1.7rem;
+          border-radius: 7px;
+          width: 250px;
+          left:400;
+          padding:10px;
+          top:150px;
+          height:60px;
+     }
+     .absolute5{
+        position: absolute;
+         color: white;
+         font-size: 1.7rem;
+         border-radius: 7px;
+         width: 210px;
+         left:130px;
+         padding:10px;
+         height:60px;
+         top:210px;
+     }
+     .absolute6{
+         position: absolute;
+         color: #007bff;
+          font-size: 1.7rem;
+          border-radius: 7px;
+          width: 250px;
+          height:60px;
+          left:400;
+          padding:10px;
+          top:210px;
+     }
+     .container{
+      top: 20px;
+      position: relative;
+      background-color:#1f222e; 
+      left: 310px;
+      height: 400px;
+      width: 750px;
+      border-radius: 30px;
+  box-shadow: 3px 1px 29px 7px rgba(0,123,255,1);     }
+     .abs{
+      text-align: center;
+      position: absolute;
+      color: white;
+      border: 2px solid black;
+      border-radius: 7px;
+      width: 300px;
+      padding: 10px;
+      top: 86px;
+      background-color: #007bff;
+     }
+     .aa{
+         color: white;
+         text-decoration: none;
+
+     }
